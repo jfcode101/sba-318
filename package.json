@@ -1,0 +1,19 @@
+{
+  "name": "sba-318",
+  "version": "1.0.0",
+  "description": "A simple server application with Node and Express.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfcode101/sba-318.git"
+  },
+  "author": "Dev JFD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jfcode101/sba-318/issues"
+  },
+  "homepage": "https://github.com/jfcode101/sba-318#readme"
+}
