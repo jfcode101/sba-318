@@ -6,7 +6,7 @@ const router = express.Router();
 
 //  create and assign a task variable
 // this will store task data in memory
-
+let tasks = [];
 // get the tasks
 router.get("/", (req, res) => {
   // render view with tasks data
