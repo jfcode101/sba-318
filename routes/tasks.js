@@ -13,7 +13,7 @@ router.get("/", (req, res) => {
   res.render("index", { task });
 });
 
-// port a new task
+// post a new task
 router.post("/", (req, res) => {
   const { title, description } = req.body;
   const newTask = { id: tasks.length + 1, title, description };
