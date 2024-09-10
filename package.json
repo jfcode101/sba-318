@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/jfcode101/sba-318/issues"
   },
-  "homepage": "https://github.com/jfcode101/sba-318#readme"
+  "homepage": "https://github.com/jfcode101/sba-318#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "express": "^3.21.2"
+  }
 }
