@@ -1,4 +1,5 @@
 const express = require("express");
+const taskRoutes = require("./routes/tasks");
 const path = require("path");
 const logs = require("./middleware/logs");
 const validateTask = require("./middleware/validateTask");
