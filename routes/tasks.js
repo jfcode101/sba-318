@@ -6,6 +6,7 @@ const router = express.Router();
 
 //  create and assign a task variable
 // this will store task data in memory
+// by initializing an empty array tp store stask
 let tasks = [];
 // get the tasks
 router.get("/", (req, res) => {
